@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 h-80" src="img/img (3).jpeg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 h-80" src="img/img (2).jpeg" alt="Second slide">
+        </div>
+        <!-- Add more carousel items here if needed -->
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+ 
+    <div class="container mt-5 mb-5" style="display: flex; align-items: center;">
+        <div class="col-md-6" style="flex: 1;">
+            <div class="icon-box" style="display: flex; align-items: center;">
+                <img src="img/slideimg.png" alt="" class="w-80" style="max-width: 100%;">
+            </div>
+        </div>
+        <div class="col-md-6 " style="flex: 2;">
+            <p style="text-align: left;">ICONIC Engineering Ltd. is a dynamic and innovative company that is committed to bringing the latest global technologies to local development in Bangladesh. Highly skilled and experienced professionals are passionate about engineering innovative and sustainable solutions that cater to the evolving needs of our clients. Our mission is to support the growth and development of the country by providing cutting-edge solutions in a variety of sectors, including Defense & Law Enforcement, Metrology & Applied Science, Healthcare, Firefighting & Rescue, Power</p>
+        </div>
+    </div>
+    
+
+
+    <div class="container mt-3">
+        <div class="section-header ">
+            <h2>Recent <span style="color: red;"> ACTIVITIES</span></h2>
+            <p style="padding-bottom: 50px;">Recent activities of Iconic exhibit how energetic and active we are with several operational and social works. From the beginning of the pandemic Coronavirus, we are providing support to the government and the people of Bangladesh by setting up Thermal Scanners in different Airports. ICONIC Engineering is honored to receive a prestigious order from LGED for an amount equivalent to $1.5 Million USD for Lightning protection solution. This is the
+                highest government single order in Bangladesh's history in this segment, which is financed by World Bank. Different exhibition and fair is a regular part </p>
+          </div>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="card card-container" >
+                    <img src="img/card-img.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger" style="float: right;">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-container" >
+                    <img src="img/card-img2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger" style="float: right;">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-container" >
+                    <img src="img/card-img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger" style="float: right;">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-container" >
+                    <img src="img/card-img4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger" style="float: right;">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <div class="container mt-5  mb-4">
+        <div class="section-header">
+            <h2>ENDORSE<span style="color: red;">MENTS</span></h2>
+            <p>A customer review with a positive perspective is a concise endorsement of a product or service, highlighting its exceptional qualities and delivering a
+                strong recommendation. It serves as a testament to the customer's satisfaction, encouraging others to consider the offering for its outstanding benefits. </p>
+          </div>
+     <div class="container">
+
+        <div class="row" style="display: flex; justify-content: center;">
+            <div class="col-lg-2">
+                <img src="img/profile.jpg" class="card-img-top" alt="..." style="border-radius: 50%; border: 5px solid #ff9a02;">
+                <div class="card" style="text-align: center;">
+                    <div class="card-body" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
+                        <h5 class="card-title">Robert Smith</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <img src="img/profile.jpg" class="card-img-top" alt="..." style="border-radius: 50%; border: 5px solid #ff9a02;">
+                <div class="card" style="text-align: center;">
+                    <div class="card-body" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
+                        <h5 class="card-title">Robert Smith</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <img src="img/profile.jpg" class="card-img-top" alt="..." style="border-radius: 50%; border: 5px solid #ff9a02;">
+                <div class="card" style="text-align: center;">
+                    <div class="card-body" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
+                        <h5 class="card-title">Robert Smith</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+     </div>
+         
+    </div>
+<!-- ======= Clients Section ======= -->
+<section id="clients" class="clients section-bg mt-4 bg-light">
+    <div class="container">
+        <div class="section-header">
+            <h2 style="text-align: Left;">DELIGHTED <span style="color: red;"> CLIENTELE</span></h2>
+            <p>Iconic maintain valuable associations with clients from all sectors by providing the best solutions within a short time. We deliver quality products to our 
+                clients at competitive prices. We always arrange important seminars with our customers and take ideas and comments from them to make our efforts 
+                more efficient. Regularly we are striving to keep our customers satisfied with our continuous improvement. So finally we have a large number of happy 
+                clents and we are trying to keep it up. </p>
+          </div>
+      <div class="row">
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="img/img (1).jpeg" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="img/img (2).jpeg" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="img/img (3).jpeg" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="img/img (3).jpeg" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="img/img (2).jpeg" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="img/img (2).jpeg" class="img-fluid" alt="">
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Clients Section -->
+
+
+        <div class="container">
+            <div class="section-header">
+                <h2>CARE & <span style="color: red;"> SUPPORT </span></h2>
+                <p>Recent activities of Iconic exhibit how energetic and active we are with several operational and social works. From the beginning of the pandemic Coronavirus, we are providing support to the government and the people of Bangladesh by setting up Thermal Scanners in different Airports. ICONIC Engineering is honored to receive a prestigious order from LGED for an amount equivalent to $1.5 Million USD for Lightning protection solution. This is the
+                    highest government single order in Bangladesh's history in this segment, which is financed by World Bank. Different exhibition and fair is a regular part </p>
+              </div>
+        </div>
+
+
+        <div class="container mt-3 " >
+          <div class="section-header">
+              <h2>Recent <span style="color: red;"> ACTIVITIES</span></h2>
+              <p style="padding-bottom: 50px ;">Recent activities of Iconic exhibit how energetic and active we are with several operational and social works. From the beginning of the pandemic Coronavirus, we are providing support to the government and the people of Bangladesh by setting up Thermal Scanners in different Airports. ICONIC Engineering is honored to receive a prestigious order from LGED for an amount equivalent to $1.5 Million USD for Lightning protection solution. This is the
+                  highest government single order in Bangladesh's history in this segment, which is financed by World Bank. Different exhibition and fair is a regular part </p>
+            </div>
+          <div class="row mt-5 ">
+              <div class="col">
+                  <div class="card card-container" >
+                      <img src="img/care1.jpg" class="card-img-top" alt="..." style="border-radius: 50%;" >
+                      <div class="card-body">
+                      
+                          <a href="#" class="btn btn-danger" style="float: right;">Appointment</a>
+  
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card card-container" >
+                      <img src="img/care2.jpg" class="card-img-top" alt="..." style="border-radius: 50%;">
+                      <div class="card-body">
+                          <a href="#" class="btn btn-danger" style="float: right;">Created ticket</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card card-container" >
+                      <img src="img/care3.jpg" class="card-img-top" alt="..." style="border-radius: 50%;">
+                      <div class="card-body">
+                          
+                          <a href="#" class="btn btn-danger " style="float: right;">Instant Chat</a>
+                      </div>
+                  </div>
+              </div>
+            
+          </div>
+      </div>
+            
+     
+          
+          
+          
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row mt-5">
+
+          <div class="col-lg-6 col-md-6">
+            <p> Any Questions ? Call us !</p>
+            <h3> +88 01977-ICONIC (426642)</h1>
+            <h1 style="color: yellow;">Contact informations</h1>
+            <div class="footer-info">
+              <p>
+                Islam Plaza (6th floor), Plot-7, Main Road-3, Section-7, 
+                Pallabi, Dhaka Banglades<br><br>
+              </p>
+          
+            </div>
+          </div>
+
+       
+
+
+          <div class="col-lg-3 col-md-6 footer-newsletter float-right ">
+            <h3>Let's Connect</h3>
+                   
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container ">
+      <div class="copyright ">
+        &copy; Copyright <strong><span>Iconic Engineering Limited</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+      
+
+
+    <!-- Add the necessary Bootstrap, jQuery, and Popper.js JS files -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+V0T6lZk4fSe47SX76zq2dJ5fuqIjL8tyG9SlJS9lHeEnz6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+  </body>
+</html>
