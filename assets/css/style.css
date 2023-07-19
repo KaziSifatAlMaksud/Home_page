@@ -1383,9 +1383,11 @@ section {
 # Footer
 --------------------------------------------------------------*/
 
-.footer-top {
-    background-image: url('img/img (1).jpeg');
+.footer{
+    background-image: url('../../img/footer.jpeg');
     background-size: cover;
+    width: 100%;
+    height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
   }
