@@ -197,29 +197,37 @@ h6,
   }
 }
 
-
-
 .card-container {
-  transform: translateY(-50px);
+  transform: translateY(-45px);
   transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  align-items: center;
+  padding: 20px 10px 20px 10px;
+  z-index: 99;
 }
 
 /* Add styles for the hover effect */
 .card-container:hover {
-  transform: translateY(-45px); /* Adjust the value to your desired hover movement */
-  box-shadow: 0 0 10px 10px #da0c0c86;
+  transform: translateY(-40px); /* Adjust the value to your desired hover movement */
+  box-shadow: 0 0 10px 5px #da0c0c86;
 }
 
-.card-container {
-  transform: translateY(-50px);
+
+.footer .footer-top .card-container {
+  transform: translateY(-250px);
   transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  align-items: center;
+  padding: 20px 10px 20px 10px;
+  z-index: 99;
 }
 
 /* Add styles for the hover effect */
-.card-container:hover {
-  transform: translateY(-45px); /* Adjust the value to your desired hover movement */
-  box-shadow: 0 10px 15px #da0c0c86;
+.footer .footer-top .card-container:hover {
+  transform: translateY(-245px); /* Adjust the value to your desired hover movement */
+  box-shadow: 0 0 10px 5px #da0c0c86;
 }
+
 
 /*--------------------------------------------------------------
 # end new css for iconic 
@@ -1383,12 +1391,84 @@ section {
 # Footer
 --------------------------------------------------------------*/
 
-.footer{
+.footer .footer-top{
     background-image: url('../../img/footer.jpeg');
     background-size: cover;
     width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 150px;
+    color: #fff;
+  }
+  
+ 
+
+  
+ 
+
+  
+
+  
+  #footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .footer-top .social-links a:hover {
+    background: var(--color-primary);
+    color: red;
+    text-decoration: none;
+  }  
+
+  
+  #footer .footer-top .footer-newsletter form {
+    margin-top: 5px;
+    width: 400px; 
+    background: #fff;
+    padding: 6px 20px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0.3px rgb(87, 13, 13);
+  }
+  
+  #footer .footer-top .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 4px;
+    width: calc(100% - 110px);
+  }
+  
+  #footer .footer-top .footer-newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px 2px 20px;
+    background: var(--color-primary);
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+  }
+  #footer .footer-top .footer-newsletter form input[type=submit]{
+    background: #df3740;
+    border-radius: 50px;
+    margin: 5px;
+  }
+  
+  #footer .footer-top .footer-newsletter form input[type=submit]:hover {
+    background: #df3740;
   }
   
