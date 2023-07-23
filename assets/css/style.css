@@ -1426,7 +1426,7 @@ section {
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 5px;
-  width: 400px; 
+  width: 60%; 
   background: #fff;
   padding: 6px 20px;
   position: relative;
@@ -1483,4 +1483,9 @@ section {
   }
 
 
+}
+@media (max-height: 7139px) {
+  .footer .footer-top {
+    height: 120vh;
+  }
 }
